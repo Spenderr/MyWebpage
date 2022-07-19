@@ -60,7 +60,7 @@ li{
     justify-content: center;
     gap:70px;
     background:#adbfcb;
-
+    flex-wrap: wrap;
     margin: 0px -9px;
 }
 div.info img{
