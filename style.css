@@ -60,7 +60,7 @@ li{
     justify-content: center;
     gap:70px;
     background:#adbfcb;
-    align-items: center;
+
     margin: 0px -9px;
 }
 div.info img{
@@ -128,4 +128,10 @@ footer{
 
 footer ul{
     gap:40px;
+    cursor: pointer;
+}
+.midBody.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
