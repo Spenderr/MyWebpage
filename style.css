@@ -115,3 +115,17 @@ div.info p{
 div.midBody2 strong{
     text-align: end;
 }
+
+footer{
+    display: flex;
+    background: #23395d;
+    color: aliceblue;
+    padding:10px;
+    margin:-9px;
+    justify-content: space-between
+    
+}
+
+footer ul{
+    gap:40px;
+}
