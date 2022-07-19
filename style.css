@@ -61,16 +61,21 @@ li{
     gap:70px;
     background:#adbfcb;
     align-items: center;
-    margin: -9px;
+    margin: 0px -9px;
 }
 div.info img{
-    height: 140px;
-    border: solid;
-    border-width: 6px;
+    height: 160px;
+    border: solid #4f5152;
+    border-width: 3px;
     border-radius: 20px;
     cursor: pointer;
-    
+    box-shadow: 3px 3px grey;
 }
+
+div.info p{
+    text-align: center;
+}
+
 .callButton{
     display: flex;
     align-items: center;
@@ -97,4 +102,16 @@ div.info img{
     border-radius: 40px;
     background-color:dodgerblue;
     color:white;
+}
+
+.midBody2{
+    display: flex;
+    flex-direction: column;
+    padding:90px;
+    margin:100px 60px;
+    font-size:25px;
+    background: #fffdd1;
+}
+div.midBody2 strong{
+    text-align: end;
 }
