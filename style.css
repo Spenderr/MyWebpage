@@ -77,6 +77,12 @@ div.info p{
     text-align: center;
 }
 
+.callButton:hover,
+.reserveButton:hover
+{
+    color:blue;
+}
+
 .callButton{
     display: flex;
     align-items: center;
